@@ -12,8 +12,8 @@
          bootstrap="test/bootstrap.php"
 >
   <testsuites>
-    <testsuite name="TestSuite">
-      <directory>./test</directory>
+    <testsuite name="AllTestSuite">
+      <directory suffix="test.php">test/</directory>
     </testsuite>
   </testsuites>
 

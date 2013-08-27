@@ -16,18 +16,10 @@
     },
 
     "require-dev": {
-        "phpunit": ">=3.5.0"
+        "phpunit/phpunit": ">=3.5.0"
     },
 
     "autoload": {
         "classmap": ["lib/", "test/"]
-    },
-
-    "repositories": {
-        "packagist": { "packagist": false},
-        "seolabs": {
-            "type": "composer",
-            "url": "http://3d6c958912c1f4bb9c4f-5e0cb9d7fe440a82750c84b85112004c.r28.cf1.rackcdn.com/repo/"
-        }
     }
 }
