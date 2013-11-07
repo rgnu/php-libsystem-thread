@@ -4,6 +4,7 @@
     "keywords": ["rgnu", "threads"],
     "type": "library",
     "license": "LGPL-2.1",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Rodrigo Garcia",
