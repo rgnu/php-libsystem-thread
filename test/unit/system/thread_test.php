@@ -35,7 +35,7 @@ class ThreadListener implements Event_Observer
  *
  * @package Tests
  */
-class System_ThreadTest extends BaseTest
+class System_ThreadTest extends System_BaseTest
 {
 	/**
 	 *

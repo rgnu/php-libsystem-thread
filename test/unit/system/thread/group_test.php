@@ -4,7 +4,7 @@
  *
  * @package Tests
  */
-class System_Thread_GroupTest extends BaseTest
+class System_Thread_GroupTest extends System_BaseTest
 {
 	/**
 	 *

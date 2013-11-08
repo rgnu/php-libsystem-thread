@@ -1,6 +1,6 @@
 <?php
 
-class BaseTest extends PHPUnit_Framework_TestCase
+class System_BaseTest extends PHPUnit_Framework_TestCase
 {
 	function assertEqual($v1, $v2, $message = null)
 	{
