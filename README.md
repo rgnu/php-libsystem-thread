@@ -17,7 +17,7 @@ class SleepThread extends System_Thread
 	}
 	
 	public function run() {
-		while ($this->sleep) {
+		while ($this->sleep && !$this->isTerminated()) {
 		    print "Sleep:".$this->sleep."\n";
 		    $this->sleep -= 1;
 		    sleep(1);
